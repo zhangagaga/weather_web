@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        #header {
+            background-image: url('images/header.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 20px 0;
+        }
+        #header h1 {
+            margin: 0;
+            padding: 20px;
+            display: inline-block; /* Keeps the background behind the text */
+            font-size: 1.75em;
+        }
+        #logo {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 30px;
+        }
+
+        #logo img {
+            width: 70px;
+            height: auto;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <div id="logo">
+                <img src="images/file.png" alt="Logo">
+            </div>
+            <h1><a href="index.html">Weather Dashboard</a></h1>
+        </header>
+
+        <!-- Main -->
+        <section id="main" class="container">
+            <header>
+                <h2>Contact Us</h2>
+            </header>
+
+            <div class="box">
+                <form method="post" action="#">
+                    <div class="row gtr-50 gtr-uniform">
+                        <div class="col-6 col-12-mobilep">
+                            <input type="text" name="name" id="name" value="" placeholder="Name" />
+                        </div>
+                        <div class="col-6 col-12-mobilep">
+                            <input type="email" name="email" id="email" value="" placeholder="Email" />
+                        </div>
+                        <div class="col-12">
+                            <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <ul class="actions special">
+                                <li><input type="submit" value="Send Message" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="actions">
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="about.html" class="button">About Us</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
